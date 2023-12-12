@@ -1,0 +1,58 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+    padding: 0 20px;
+}
+
+.header {
+    width: 100vw;
+    padding: 10px 20px;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    border: 3px solid #549853;
+    border-radius: 30px;
+
+}
+
+.textarea {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    min-height: 200px;
+    margin-top: 90px;
+    background: transparent;
+    color: black;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.img {
+    z-index: 5;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back {
+    margin-left: 15px;
+}
+
+.block {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: black;
+    border-bottom: 4px solid #549853;
+    width: fit-content;
+    padding: 0 5px;
+    padding-bottom: 6px;
+
+}
